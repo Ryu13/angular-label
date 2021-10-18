@@ -1,0 +1,41 @@
+{
+  "version": "1.1.14",
+  "name": "@roger_npm_999/n-ary-tree",
+  "description": "Doubly linked list implementation",
+  "preferGlobal": false,
+  "author": "Roger A. Yamada",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryu13/n-ary-tree.git"
+  },
+  "scripts": {
+    "build": "tsc -b ",
+    "test": "mocha -r ts-node/register ./**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/sinon": "^7.5.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^9.0.1",
+    "ts-node": "^8.3.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Ryu13/n-ary-tree/issues"
+  },
+  "homepage": "https://github.com/Ryu13/n-ary-tree#readme",
+  "main": "index.js",
+  "keywords": [
+    "tree"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
