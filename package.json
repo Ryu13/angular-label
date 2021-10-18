@@ -1,16 +1,22 @@
 {
-  "version": "1.1.14",
-  "name": "@roger_npm_999/n-ary-tree",
-  "description": "Doubly linked list implementation",
+  "version": "1.0.1",
+  "name": "@roger_npm_999/angular-label",
+  "description": "Angular html label as directive",
   "preferGlobal": false,
   "author": "Roger A. Yamada",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ryu13/n-ary-tree.git"
+    "url": "git+https://github.com/Ryu13/angular-label.git"
   },
   "scripts": {
+    "prepublish": "tsc",
     "build": "tsc -b ",
     "test": "mocha -r ts-node/register ./**/*.spec.ts"
+  },
+  "dependencies": {
+    "@angular/core": "~12.1.0",
+    "rxjs": "~6.5.3",
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@types/chai": "^4.2.0",
@@ -19,15 +25,14 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
     "sinon": "^9.0.1",
-    "ts-node": "^8.3.0",
-    "tslib": "^1.10.0",
-    "typescript": "^3.7.2"
+    "tslib": "^2.0.0",
+    "typescript": "~4.3.5"
   },
   "bugs": {
-    "url": "https://github.com/Ryu13/n-ary-tree/issues"
+    "url": "https://github.com/Ryu13/angular-label/issues"
   },
-  "homepage": "https://github.com/Ryu13/n-ary-tree#readme",
-  "main": "index.js",
+  "homepage": "https://github.com/Ryu13/angular-label#readme",
+  "main": "main.ts",
   "keywords": [
     "tree"
   ],
